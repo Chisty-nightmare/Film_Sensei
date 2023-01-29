@@ -1,0 +1,94 @@
+.container iframe{
+	
+margin-top:30px ;
+margin-left: auto;
+margin-right: auto;
+
+border:4px solid #c00000;
+	
+}
+
+.container h2{
+	
+margin-left: auto;
+margin-right: auto;
+
+border-left:4px solid #c00000;
+padding-left:10px;
+margin-top:20px;
+	
+}
+
+.container p{
+	
+
+margin-left: auto;
+margin-right: auto;
+
+
+	
+}
+
+ .subbutton 
+{
+  border-radius:10px;
+  background:  #E74246;
+  padding:4px 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight:bold;
+  letter-spacing: 1.5px;
+   border: 3px solid #333333;
+   margin-top:6px;
+   margin-left:4px;
+   
+  
+}
+
+ .subbutton:hover
+{
+  background-color: white;
+  color: rgb(255, 50, 50);
+  transform: scale(0.97);
+  transition: 0.3s linear;
+}
+
+
+#comments {
+	
+	width:100%;
+	border-bottom: 2px solid #c00000;
+	background:none;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	 
+	
+}
+
+
+ .postbutton 
+{
+  border-radius:10px;
+  background:  #E74246;
+  padding:4px 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight:bold;
+  letter-spacing: 1.5px;
+   border: 3px solid #333333;
+   margin-top:6px;
+   margin-left:4px;
+   
+  
+}
+
+ .postbutton:hover
+{
+  background-color: white;
+  color: rgb(255, 50, 50);
+  transform: scale(0.97);
+  transition: 0.3s linear;
+}

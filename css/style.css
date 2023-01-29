@@ -1,0 +1,598 @@
+  @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+  
+  body{
+	  
+	background: url("../images/background1.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+	  
+  }
+ a {
+      text-decoration:none;
+	  color:black;
+   }
+
+.index_upper .container{
+	
+	background: url("../images/background5.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+	height:80px;
+	
+	
+	 
+	
+}
+.index_upper .container  .upper_menu .home_logo {
+	
+	width:98px;
+	padding-right:5px
+	 
+
+	
+}
+ 
+ .index_upper .container  .upper_menu  {
+	
+	padding-top:8px;
+	
+	 
+
+	
+}
+ 
+
+
+.index_upper .container  .upper_menu li {
+	
+	display: inline-block;
+	text-align:center;
+	
+	padding-top:2px;
+	position:relative;
+    
+    font-weight: bold;
+	
+	
+}
+.index_upper .container  .upper_menu .search_bar{
+	 width:450px; 
+	 margin-right:200px;
+	 
+ }
+.index_upper .container  .upper_menu .menu::after {
+	
+	content: ' ';
+	display:block;
+	width: 0;
+	height: 3px;
+	background: #fff;
+	transition: width .3s;
+	margin-top:8px;
+	 
+
+}	
+
+.index_upper .container  .upper_menu .menu:hover::after {
+	
+	
+	width: 100%;
+	transition: width;
+	 
+	 
+	 
+
+}	
+	
+.index_upper .container  .upper_menu .menu:hover #menutext {
+	
+    font-weight:800;
+	font-size: 20px;
+	
+	 
+
+}
+	
+
+ .index_upper .container  .upper_menu .contact_bar::after {
+	
+	content: ' ';
+	display:block;
+	width: 0;
+	height: 3px;
+	background: #fff;
+	transition: width .3s;
+	margin-top:8px;
+
+}	
+
+.index_upper .container  .upper_menu .contact_bar:hover::after {
+	
+	
+	width: 100%;
+	transition: width 
+
+}	
+
+.index_upper .container  .upper_menu .contact_bar:hover h6 {
+	
+    font-weight:800;
+	font-size: 20px;
+	 
+
+}
+
+ .index_upper .container  .upper_menu .sign_in::after {
+	
+	content: ' ';
+	display:block;
+	width: 0;
+	height: 3px;
+	background: #fff;
+	transition: width .3s;
+	margin-top:8px;
+
+}	
+
+.index_upper .container  .upper_menu .sign_in:hover::after {
+	
+	
+	width: 100%;
+	transition: width 
+
+}	
+
+.index_upper .container  .upper_menu .sign_in:hover h6 {
+	
+    font-weight:800;
+	font-size: 20px;
+	 
+
+}
+
+.index_upper .container  .upper_menu .sign_out:hover {
+	
+	
+	transform:scale(1.2);
+
+}	
+
+.index_upper .container  .upper_menu .sign_out{
+	
+    
+  transition: 0.5s ease;
+  cursor: pointer;
+ 
+
+}
+.index_upper .container  .upper_menu .home_logo:hover {
+	
+	
+	transform:scale(1.1);
+
+}	
+
+.index_upper .container  .upper_menu .home_logo{
+	
+    
+  transition: 0.5s ease;
+  cursor: pointer;
+ 
+
+}
+
+
+ 
+ .index_upper .container  .upper_menu .menu .sub_menu{
+	 display: none;
+ }
+ 
+ .index_upper .container  .upper_menu .menu:hover .sub_menu{
+	 
+	 display:block;
+	 position:absolute;
+	background: url("../images/background7.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+	z-index: 100;
+	
+   
+	  
+ 
+	 
+ }
+ .index_upper .container  .upper_menu .menu:hover .sub_menu ul li{
+	 
+
+	margin-left:-30px;
+	  
+	 
+	 
+	 
+ }
+ 	
+ 
+ .index_upper .container  .upper_menu .menu:hover .sub_menu ul .films h6::after {
+	
+	content: ' ';
+	display:block;
+	width: 0;
+	background: #fff;
+	transition: width .3s;
+	margin-top:8px;
+	height: 3px;
+
+}	
+  
+ .index_upper .container  .upper_menu .menu:hover .sub_menu ul .films h6:hover::after {
+	
+	width: 100%;
+	transition: width;
+	 
+
+}	
+
+ .index_upper .container  .upper_menu .menu:hover .sub_menu ul .films:hover h6 {
+	
+    font-weight:800;
+	font-size: 20px;
+	 
+
+}
+ 
+ 
+  .index_upper .container  .upper_menu .menu:hover .sub_menu ul .about_us h6::after {
+	
+    content: ' ';
+	display:block;
+	width: 0;
+	background: #fff;
+	transition: width .3s;
+	margin-top:8px;
+	height: 3px;
+
+}	
+  
+ .index_upper .container  .upper_menu .menu:hover .sub_menu ul .about_us h6:hover::after {
+	
+	width: 100%;
+	transition: width;
+	 
+
+}	
+
+ .index_upper .container  .upper_menu .menu:hover .sub_menu ul .about_us:hover h6 {
+	
+    font-weight:800;
+	font-size: 20px;
+	 
+
+}
+
+ .index_upper .container  .upper_menu .menu:hover .sub_menu ul .team h6::after {
+	
+    content: ' ';
+	display:block;
+	width: 0;
+	background: #fff;
+	transition: width .3s;
+	margin-top:8px;
+	height: 3px;
+
+}	
+  
+ .index_upper .container  .upper_menu .menu:hover .sub_menu ul .team h6:hover::after {
+	
+	width: 100%;
+	transition: width;
+	 
+
+}	
+
+ .index_upper .container  .upper_menu .menu:hover .sub_menu ul .team:hover h6 {
+	
+    font-weight:800;
+	font-size: 20px;
+	 
+
+}
+
+
+ .index_upper .container  .upper_menu .menu:hover .sub_menu ul .contact_us_bar h6::after {
+	
+	content: ' ';
+	display:block;
+	width: 0;
+	background: #fff;
+	transition: width .3s;
+	margin-top:8px;
+	height: 3px;
+
+}	
+  
+ .index_upper .container  .upper_menu .menu:hover .sub_menu ul .contact_us_bar h6:hover::after {
+	
+	width: 100%;
+	transition: width;
+	 
+
+}	
+
+ .index_upper .container  .upper_menu .menu:hover .sub_menu ul .contact_us_bar:hover h6 {
+	
+    font-weight:800;
+	font-size: 20px;
+	 
+
+}
+
+ 
+
+ /*------------------------------------------------------------------
+[ Index-Upper Done... ]*/
+ 
+ 
+ 
+.index_first_part .container h3{
+	
+	border-left: 5px solid #c00000;
+	padding-left:7px;
+	font-weight:700;
+}
+
+
+ .index_first_part {
+	 margin-top:100px;
+	 
+ }
+ 
+ 
+
+.index_first_part  .container  .owl-stage-outer{
+	
+	padding:30px;
+	
+}
+
+
+.index_first_part .card {
+  display: grid;
+  grid-template-columns: 305px;
+  grid-template-rows: 210px 200px 90px;
+  grid-template-areas: "image" "text" "stats";
+  background: white;
+  box-shadow: 2px 4px 8px 2px rgba(0,0,0,0.8);
+  font-family: roboto;
+  text-align: center;
+  width: 310px;
+  border-radius: 10px;
+  border: 2px solid #C00000;
+
+  
+  
+}
+ 
+
+
+
+
+.index_first_part .card-text {
+  grid-area: text;
+  margin: 45px;
+  margin-top:150px;
+}
+.index_first_part .card-text .date {
+  color: rgb(255, 7, 110);
+  font-size:13px;
+}
+.index_first_part .card-text p {
+  color: grey;
+  font-size:17px;
+  font-weight: 300;
+ 
+}
+.index_first_part .card-text h4 {
+  
+  font-size:20px;
+  font-weight:bold
+}
+
+
+.index_first_part  .card-stats {
+  grid-area: stats; 
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  background: white;
+  border-radius: 10px;
+  border: 2px dotted #C00000;
+}
+
+.index_first_part  .card-stats .stat  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: black;
+  padding:10px;
+  border-radius:10px;
+  
+  
+}
+ 
+.index_first_part  .card:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.index_first_part  .card {
+
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin:10px;
+} 
+ 
+ 
+ 
+ 
+ 
+ .owl-dots{
+
+  text-align: center;
+ 
+ 
+}
+.owl-nav{
+	
+	text-align:center;
+   
+	 
+	
+	
+}
+
+.owl-dot{ 
+  height: 15px;
+  width: 45px;
+  margin: 5 7px;
+  outline: none;
+  display:inline-block;
+  border-radius: 10px;
+  border: 3px solid #C00000!important;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+   
+}
+
+.owl-dot.active,
+.owl-dot:hover{
+  background:black!important;
+  text-align:center;
+}
+ 
+/*------------------------------------------------------------------
+[ Index-First-Part not done: ]*/
+ 
+ 
+ 
+ 
+ 
+ .footer{
+	
+	background-color:black;
+	height : 150px ;
+	text-align:center;
+	padding-top: 60px;
+	
+}
+
+
+
+
+/*------------------------------------------------------------------
+[ Max screen width effect: ]*/
+
+
+ @media (max-width: 1255px){
+
+
+.index_upper .container{
+	
+		background: url("../images/background6.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+	height:120px;
+	
+	 
+	
+}
+
+
+
+
+
+
+ }
+
+ @media (max-width: 991px){
+
+
+.index_upper .container{
+	
+		background: url("../images/background6.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+	height:170px;
+	
+	 
+	
+}
+ 
+
+ }
+
+
+ @media (max-width: 771px){
+
+.index_upper .container{
+		background: url("../images/background6.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+	height:170px;
+	
+	 	
+}
+
+ 
+
+ 
+ }	 
+ 
+ 
+  @media (max-width: 527px){
+
+.index_upper .container  .upper_menu .search_bar {
+	
+	width: 300px;
+	margin-right:200px;
+	
+}
+ 
+ 
+ /*...................*/
+ 
+ 
+ /*............*/
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+   @media (max-width: 350px){
+
+.index_upper .container  .upper_menu .search_bar {
+	
+	width: 200px;
+	margin-right:200px;
+	
+}
+
+
+
+ 
+ }
